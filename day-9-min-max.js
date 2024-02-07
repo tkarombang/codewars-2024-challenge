@@ -25,7 +25,7 @@
 let min = (list) => {
   let minValue = list[0];
   for (let i = 0; i <= list.length; i++) {
-    if (minValue > list[i]) {
+    if (list[i] < minValue) {
       minValue = list[i];
     }
   }
@@ -35,7 +35,7 @@ let min = (list) => {
 let max = (list) => {
   let maxValue = list[0];
   for (let i = 0; i < list.length; i++) {
-    if (maxValue < list[i]) {
+    if (list[i] > maxValue) {
       maxValue = list[i];
     }
   }
