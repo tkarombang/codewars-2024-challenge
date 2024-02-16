@@ -1,5 +1,5 @@
 // WPU Coding Challenge 2024
-// 14/366
+// 15/366
 // https://www.codewars.com/kata/576b93db1129fcf2200001e6
 
 
