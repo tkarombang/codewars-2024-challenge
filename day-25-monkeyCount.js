@@ -11,7 +11,21 @@
 //   }
 //   return result;
 // }
-const monkeyCount = (n) => arr = [...Array(n)].map((_, a) => a + 1)
+
+// const monkeyCount = (n) => arr = [...Array(n)].map((_, a) => a + 1)
+
+function monkeyCount(n) {
+  // const result = []
+  // for (let i = 1; i <= n; i++){
+  //   result.push(i)
+  // }
+  // return result;
+
+  return Array.from({
+    length: n
+  }, (_, i) => i + 1)
+}
+
 
 
 console.log(monkeyCount(5))
