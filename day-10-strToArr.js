@@ -9,8 +9,10 @@
 // }
 
 const stringToArray = (string) => string.split(' ');
-
-
-
-
 console.log(stringToArray('My Name is Azwar and I am not terorrist'));
+
+function string(str){
+  return str.split(' ').slice(3).join(" ");
+}
+
+console.log(string("Saya sedang Live Test Code dengan mitech"))
