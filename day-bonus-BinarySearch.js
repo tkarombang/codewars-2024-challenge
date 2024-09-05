@@ -25,3 +25,13 @@ function cariElement(n, target) {
 const el = [1, 2, 5, 10, 40];
 const n = 5;
 console.log(cariElement(n, el));
+
+// let total = 0;
+// for(let i=0; i <= 5; i++){
+//   if(i % 2 == 0){
+//     total +=10
+//   }else{
+//     total -=5
+//   }
+// }
+// console.log(total)
