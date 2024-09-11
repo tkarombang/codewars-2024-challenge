@@ -12,5 +12,6 @@
 // function enough(cap, on, wait) {
 //   return cap >= (on + wait) ? 0 : wait - (cap - on)
 // }
+
 const enough = (cap, on, wait) => (cap >= on + wait ? 0 : wait - (cap - on));
 console.log(enough(10, 5, 5));
