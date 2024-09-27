@@ -2,7 +2,7 @@
 // 59/366
 // https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
 
-function accum(str) {
+function mumbling(str) {
   // let result = ""
   // for(let i = 0; i < str.length; i++){
   //   const upper = str[i].toUpperCase()
@@ -23,4 +23,4 @@ function accum(str) {
     .join("-");
 }
 
-console.log(accum("abcd"));
+console.log(mumbling("abcd"));
