@@ -31,9 +31,10 @@ function getSum(a, b) {
   //   result += i;
   // }
   // return result;
+  // let theBig = Math.max(a, b),
+  //   theSmall = Math.min(a, b);
+  // return ((theBig - theSmall + 1) * (theSmall + theBig)) / 2;
 
-  let theBig = Math.max(a, b),
-    theSmall = Math.min(a, b);
-  return ((theBig - theSmall + 1) * (theSmall + theBig)) / 2;
+  console.log(Math.abs(((a - b + 1) * (a + b)) / 2));
 }
 console.log(getSum(5, -1));
