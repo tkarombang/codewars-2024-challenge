@@ -15,6 +15,7 @@
 // console.log(
 //   deretBilanganMenurun(12));
 
+
 //MENCARI HURUF VOKAL
 // function mencariHurufVokal(sampleInput){
 //   const vokal = 'aiueoAIUEO';
@@ -30,6 +31,7 @@
 // console.log(mencariHurufVokal(
 //   "Indonesia Raya"))
 
+
 //MENENTUKAN GANJIL GENAP DARI JUMLAH KARAKTER
 // function ganjilGenapJumlahKarakter(sampleInput){
 //  if (sampleInput.length % 2 === 0){
@@ -41,6 +43,7 @@
 // console.log(
 //   ganjilGenapJumlahKarakter("Si Cantik")
 // )
+
 
 //GANTI HURUF VOKAL DENGAN ANGKA
 // function menggantiHurufVokalAngka(sampleInput) {
@@ -87,3 +90,43 @@
 // console.log(membalikkanKata("Indonesia Raya"));
 
 //
+
+
+// Buat code yang menampilkan bilangan fibonaci 0 sampai 100 , masing2 jawaban di beri tanda kurung 
+// co (0) , (1) dan seterusnya
+
+// function fibonacci(num){
+// let bilangna_1 = 1
+// let bilangan_2 = 2
+// let next = 0
+//   for(let i = 1; i <= num; i++){
+//     console.log(bilangna_1)
+//     next = bilangna_1 + bilangan_2
+//     bilangna_1 = bilangan_2
+//     bilangan_2 = next
+//   } 
+// }
+// fibonacci(10)
+
+
+function fibo(num) {
+  if (num <= 2) {
+    return num
+  } else {
+    return fibo(num - 1)
+  }
+}
+console.log(fibo(10))
+
+// function fibonacci(num){
+//   if(num <= 2){
+//     return num
+//   }else{
+//     return fibonacci(num - 1) + fibonacci(num - 2)
+//   }
+// }
+
+// const fib = (num) => num <= 2 ? num : fib(num - 1) + fib(num - 2)
+// for (let i = 0; i <= 5; i++) {
+//   console.log(fib(i))
+// }
