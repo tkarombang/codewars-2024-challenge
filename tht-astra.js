@@ -92,7 +92,7 @@
 //
 
 
-// Buat code yang menampilkan bilangan fibonaci 0 sampai 100 , masing2 jawaban di beri tanda kurung 
+// Buat code yang menampilkan bilangan fibonaci 0 sampai 100 , masing2 jawaban di beri tanda kurung
 // co (0) , (1) dan seterusnya
 
 // function fibonacci(num){
@@ -104,19 +104,19 @@
 //     next = bilangna_1 + bilangan_2
 //     bilangna_1 = bilangan_2
 //     bilangan_2 = next
-//   } 
+//   }
 // }
 // fibonacci(10)
 
 
-function fibo(num) {
-  if (num <= 2) {
-    return num
-  } else {
-    return fibo(num - 1)
-  }
-}
-console.log(fibo(10))
+// function fibo(num) {
+//   if (num <= 2) {
+//     return num
+//   } else {
+//     return fibo(num - 1)
+//   }
+// }
+// console.log(fibo(10))
 
 // function fibonacci(num){
 //   if(num <= 2){
@@ -130,3 +130,5 @@ console.log(fibo(10))
 // for (let i = 0; i <= 5; i++) {
 //   console.log(fib(i))
 // }
+
+
